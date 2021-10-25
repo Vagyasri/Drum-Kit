@@ -2,11 +2,15 @@ body {
   background-image: url("background.jpg");
 }
 
-.notes {
+.notes-container {
   color: white;
   display: flex;
   text-align: center;
   justify-content: center;
   text-transform: uppercase;
   font-size: 50px;
+}
+
+.note {
+  
 }
