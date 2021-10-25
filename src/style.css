@@ -5,12 +5,24 @@ body {
 .notes-container {
   color: white;
   display: flex;
-  text-align: center;
   justify-content: center;
   text-transform: uppercase;
-  font-size: 50px;
+  font-size: 40px;
 }
 
 .note {
-  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 5px solid black;
+  border-radius: 20px;
+  margin: 3px;
+  padding: 5px;
+  background: rgba(0, 0, 0, 0.5);
+  width: 80px;
+}
+
+.sound {
+  font-size: 1rem;
+  color: yellow;
 }
