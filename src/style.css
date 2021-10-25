@@ -5,6 +5,8 @@ body {
 .notes-container {
   color: white;
   display: flex;
+  height: 100vh;
+  align-items: center;
   justify-content: center;
   text-transform: uppercase;
   font-size: 40px;
@@ -20,6 +22,7 @@ body {
   padding: 5px;
   background: rgba(0, 0, 0, 0.5);
   width: 80px;
+  cursor: pointer;
 }
 
 .sound {
