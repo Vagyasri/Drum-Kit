@@ -6,5 +6,13 @@ window.addEventListener('keydown', (e) => {
   if (!audio) return;
   audio.currentTime = 0;
   audio.play();
-  note.classList.toggle('play');
+  note.classList.add('play');
 });
+
+const removeTransition = (e) => {
+  if (e.propertyName !== 'transform') return;
+  console.log(e.propertyName);
+};
+
+const notes = document.querySelectorAll('.note');
+notes.forEach(((note) => note.addEventListener('transitionend', removeTransition)));
