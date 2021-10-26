@@ -1,4 +1,4 @@
-# Project
+# Drum-kit
 
 In this project, I am creating a Drum-kit which will be playing the sounds asscociated with the individual keys along with reflecting short little animations when those are clicked on.
 
