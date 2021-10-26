@@ -11,8 +11,8 @@ window.addEventListener('keydown', (e) => {
 
 const removeTransition = (e) => {
   if (e.propertyName !== 'transform') return;
-  console.log(e.propertyName);
+  e.target.classList.remove('play');
 };
 
 const notes = document.querySelectorAll('.note');
-notes.forEach(((note) => note.addEventListener('transitionend', removeTransition)));
+notes.forEach((note) => note.addEventListener('transitionend', removeTransition));
