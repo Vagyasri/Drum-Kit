@@ -1,5 +1,5 @@
 {
-  "name": "cusine-variant",
+  "name": "drum-kit",
   "version": "1.0.0",
   "description": "In this project, we are creating a website consisting of Recipes from around the world. We are using a Kanban board for practice purposes and we have used an external API.s",
   "private": true,
@@ -10,22 +10,24 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Vagyasri/Cusine-variant.git"
+    "url": "git+https://github.com/Vagyasri/Drum-Kit.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Vagyasri/Cusine-variant/issues"
+    "url": "https://github.com/Vagyasri/Drum-Kit/issues"
   },
-  "homepage": "https://github.com/Vagyasri/Cusine-variant#readme",
+  "homepage": "https://github.com/Vagyasri/Drum-Kit#readme",
   "devDependencies": {
     "babel-eslint": "^10.1.0",
     "css-loader": "^6.3.0",
     "eslint": "^7.32.0",
     "eslint-config-airbnb-base": "^14.2.1",
     "eslint-plugin-import": "^2.25.2",
+    "file-loader": "^6.2.0",
     "hint": "^6.1.4",
+    "html-loader": "^3.0.0",
     "html-webpack-plugin": "^5.3.2",
     "jest": "^27.3.0",
     "style-loader": "^3.3.0",
