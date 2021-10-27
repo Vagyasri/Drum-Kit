@@ -9,7 +9,10 @@ In this project, I am creating a Drum-kit which will be playing the sounds assco
 - JavaScipt
 - Webpack
 - ES6
-- JSON
+
+# Screenshot
+
+![Drum](Drum.png)
 
 ## Live Demo
 
